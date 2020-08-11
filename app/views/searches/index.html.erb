@@ -1,0 +1,26 @@
+
+<%= stylesheet_link_tag "application" %>
+
+<div class="search-container">
+ <%= form_tag  search_path do %>
+
+  <div class="container" style="height:410px;">
+  	<h1>Find customers for invitation</h1>
+    <label for="fpath"><b>Filepath</b></label>
+    <%= text_field_tag :filepath , 'https://s3.amazonaws.com/intercom-take-home-test/customers.txt' %>
+
+    <label for="officegps"><b>Office GPS Coordinates</b></label>
+    <%= text_field_tag :officegps, '53.339428, -6.257664'%>
+
+    <label for="rangedistance"><b>Range (in Kms.)</b></label>
+    <%= text_field_tag :rangedistance, '100'%>
+
+        
+    <button type="submit" class="searchPageBtn">Extract Customers</button>
+
+   
+</div>
+<p id="notice" style="color: red;"><%= notice %></p>
+ <%end%>
+ 
+</div>

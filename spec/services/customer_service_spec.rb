@@ -1,5 +1,6 @@
 require "rails_helper"
-require_relative '../app/services/Intercom/customer_service'
+require_relative '../../app/services/Intercom/customer_service'
+require_relative '../../app/models/gps_location'
 
 
 RSpec.describe 'Customers' do
