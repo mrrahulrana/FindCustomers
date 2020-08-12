@@ -10,13 +10,24 @@ The GPS coordinates for our Dublin office are 53.339428, -6.257664.
 You can find the Customer list here(https://s3.amazonaws.com/intercom-take-home-test/customers.txt).
 
 
-* Ruby version = 2.7
-
+* Ruby 
+```
+  version = 2.7
+```
 * Setup 
+ ```
   bundle install
-
+ ```
 * Run
+ ```
   Rails s
-
+ ```
 * Test
+ ```
   rake spec
+ ```
+ 
+ # Solution
+ When project runs the solution then a find customer page will be opened where user can provide customer file path, source location and range while searching the customers.
+ 
+ User can extract the list of eligible customers in output.txt file by clicking the extract customers button on the web page.
