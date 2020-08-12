@@ -31,3 +31,5 @@ You can find the Customer list here(https://s3.amazonaws.com/intercom-take-home-
  When project runs the solution then a find customer page will be opened where user can provide customer file path, source location and range while searching the customers.
  
  User can extract the list of eligible customers in output.txt file by clicking the extract customers button on the web page.
+ 
+ ![](https://github.com/mrrahulrana/FindCustomers/blob/master/FindCustomer_img.PNG)
