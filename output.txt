@@ -1,0 +1,18 @@
+Eligible customers for food and drinks within 100 km from location => 53.339428, -6.257664 are below:
+
+Customer 4:   Ian Kehoe =>53.2451022,-6.238335
+Customer 5:   Nora Dempsey =>53.1302756,-6.2397222
+Customer 6:   Theresa Enright =>53.1229599,-6.2705202
+Customer 8:   Eoin Ahearn =>54.0894797,-6.18671
+Customer 11:   Richard Finnegan =>53.008769,-6.1056711
+Customer 12:   Christina McArdle =>52.986375,-6.043701
+Customer 13:   Olive Ahearn =>53.0,-7.0
+Customer 15:   Michael Ahearn =>52.966,-6.463
+Customer 17:   Patricia Cahill =>54.180238,-5.920898
+Customer 23:   Eoin Gallagher =>54.080556,-6.361944
+Customer 24:   Rose Enright =>54.133333,-6.433333
+Customer 26:   Stephen McArdle =>53.038056,-7.653889
+Customer 29:   Oliver Ahearn =>53.74452,-7.11167
+Customer 30:   Nick Enright =>53.761389,-7.2875
+Customer 31:   Alan Behan =>53.1489345,-6.8422408
+Customer 39:   Lisa Ahearn =>53.0033946,-6.3877505
