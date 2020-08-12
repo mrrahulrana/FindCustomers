@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirement
+some customer records in a text file (customers.txt) -- one customer per line, JSON lines formatted. We want to invite any customer within 100km of our Dublin office for some food and drinks on us. Write a program that will read the full list of customers and output the names and user ids of matching customers (within 100km), sorted by User ID (ascending).
 
-Things you may want to cover:
+You must use the first formula from(https://en.wikipedia.org/wiki/Great-circle_distance) this Wikipedia article to calculate distance. Don't forget, you'll need to convert degrees to radians.
 
-* Ruby version
+The GPS coordinates for our Dublin office are 53.339428, -6.257664.
 
-* System dependencies
+You can find the Customer list here(https://s3.amazonaws.com/intercom-take-home-test/customers.txt).
 
-* Configuration
 
-* Database creation
+* Ruby version = 2.7
 
-* Database initialization
+* Setup 
+  bundle install
 
-* How to run the test suite
+* Run
+  Rails s
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Test
+  rake spec
