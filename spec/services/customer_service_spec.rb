@@ -3,7 +3,7 @@ require_relative '../../app/services/Intercom/customer_service'
 require_relative '../../app/models/gps_location'
 
 
-RSpec.describe 'Customers' do
+RSpec.describe 'Customers file read' do
     describe "#fetchCustomers" do
         CUSTOMERS_URL = 'https://s3.amazonaws.com/intercom-take-home-test/customers.txt'
         let(:customers) { Intercom::CustomerService.new.fetchCustomers CUSTOMERS_URL }
